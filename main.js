@@ -8,5 +8,5 @@ searcher.addEventListener('click', () => {
 });
 
 function fetchMeaning() {
-    return fetch('http://localhost:3000/').catch((error) => { console.log(error) });
+    return fetch('https://companhia-verdadeira-back-end.herokuapp.com/').catch((error) => { console.log(error) });
 }
